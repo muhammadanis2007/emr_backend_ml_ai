@@ -1,11 +1,12 @@
 
-EMR Backend (Regenerated)
+EMR Backend ML AI
 =========================
 
-This regenerated backend is Node.js + Express, designed to work with MS SQL Server and OpenAI/local LLMs.
+This  backend is Node.js + Express, designed to work with MS SQL Server and OpenAI/local LLMs.
 It includes:
+-Nodejs, Expressjs, bcrypt
 - Auth (JWT)
-- Patients, Visits, Prescriptions, Lab upload + OCR
+- Patients, Visits, Prescriptions, Lab upload + OpenAI + OCR
 - Model registry + unified LLM adapter (OpenAI & local)
 - Alerts (socket.io + email) and retrain cron
 - Dockerfile and docker-compose example
